@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>MARIO BROSS</title>
+</head>
+
+<body>
+
+
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo mario">
+        <a> Home</a>
+        <a> Nossos Serviços</a>
+        <a onclick="faleconosco()"> Fale Conosco</a>
+    </div>
+
+    <div class="video">
+
+        <video src="./videos/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara"></div>
+
+    </div>
+
+    <div class="pai">
+
+
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario bross" class="logo-mario">
+
+            <p> Encanadores Mario e Luigi- Resolvendo seus Problemas com Estilo! </p>
+            <p> Você já se encontrou em uma situação de Emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais Eficiente de Recife-PE.
+            </p>
+            <button class="botao" onclick="cliqueinobotao()"> Entre em Contato</button>
+
+        </div>
+
+        <div> <img src="./img/mario.png" alt="logo mario e Luigi-" class="mario-luigi">
+
+        </div>
+
+    </div>
+
+    <a href="https://wa.me/message/AE6NQRITQJLFL1" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario" 
+    action="https://formcarry.com/s/H9Opl2virB1" 
+    method="POST" 
+    enctype="multipart/form-data">
+
+        <input placeholder=" Seu Nome" type="text" name="nome">
+        <input placeholder=" Seu Telefone" type="tel" name="Telefone">
+        <textarea placeholder="Degite Seu Problema Aqui..." name="duvidas"></textarea>
+        <button type="submit"> Pedir Orçamento</button>
+    </form>
+
+    <div class="mascara-formulario" onclick="cliqueinamascara()"></div>
+
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
